@@ -23,18 +23,19 @@ Step by step walkthrough:
  
 
 5.
-A) If the user selected Course enrolment information on new sheet:
-A new sheet will be populated via the sub “GetCourseInfo()” contained in Module “Module2C”. The new sheet will be titled “*Course Name* Enrolment” and    will contain student first, last names and student IDs who are enrolled in the course selected. 
+ A) If the user selected Course enrolment information on new sheet:
+  A new sheet will be populated via the sub “GetCourseInfo()” contained in Module “Module2C”. The new sheet will be titled “*Course Name* Enrolment” and will contain student first, last names and student IDs who are enrolled in the course selected(See below). 
+<img width="259" alt="image" src="https://user-images.githubusercontent.com/126124271/220813212-d3426377-7f0f-459e-977d-d6e5995beaae.png">
 
-B) If the user selected Report of final grades on word document:
-A new word document in the user’s Documents folder will be saved with the name “*Course Name* Final Grade Report”. The word document report contains a Histogram chart of the final grades for the course. Final grades are calculated with the weight: Assignments 5%, Midterm 30%, and Final 50%, of the weights you wish to use are different you must alter the code in GetGradeReport() sub. All assignment averages are imported from the access database for each student. Following the chart the document contains other course statistics: average, min, max, mode, median, and standard deviation. The following are examples of reports made for AS101, PC131, and PC120:
-After creating a report, the message box will show that the program has finished and guide you to the report in your documents folder.
+ B) If the user selected Report of final grades on word document:
+  A new word document in the user’s Documents folder will be saved with the name “*Course Name* Final Grade Report”. The word document report contains a Histogram chart of the final grades for the course. Final grades are calculated with the weight: Assignments 5%, Midterm 30%, and Final 50%, of the weights you wish to use are different you must alter the code in GetGradeReport() sub. All assignment averages are imported from the access database for each student. Following the chart the document contains other course statistics: average, min, max, mode, median, and standard deviation. 
+ After creating a report, the message box will show that the program has finished and guide you to the report in your documents folder.
 
-Example of Word document report that the application can produce for course "AS101":
-[AS101 Final Grade Report.docx](https://github.com/ErinManson/Grade-Wizard/files/10809427/AS101.Final.Grade.Report.docx)
+Example of Word document report that the application can produce for course "PC120" screenchot .png:
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/126124271/220812647-d8681341-28b4-4b10-aa10-1cb191d20f27.png">
 
  
-Th Application is now complete! The student marking/grade wizard application effectively handles errors, imports data from a database using SQL Queries, and makes a new sheet/word document dependant on UserForm input.
+The Application is now complete! The student marking/grade wizard application effectively handles errors, imports data from a database using SQL Queries, and makes a new sheet/word document dependant on UserForm input.
 
 
 Email me at 0404em@gmail.com if you have any questions!
