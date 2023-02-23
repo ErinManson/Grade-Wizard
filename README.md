@@ -6,7 +6,7 @@ Written in VBA utilizing MS excel macros, UserForms, and SQL queries, users can 
 Author: Erin Manson
 
 To use the application you must have Registrar.accdb(or file in same format), and GradeWizardMaster.xlsm(or a .xlsm file with all modules and userforms imported) on your device. 
-*IMPORTANT: MACROS MUST BE ENABLED IN THE DOCUMENTS, MS ACCESS FILES CANNOT BE OPENED ON MACHINES THAT RUN MAC.*
+*IMPORTANT: MACROS MUST BE ENABLED IN THE DOCUMENTS, MS ACCESS FILES CANNOT BE OPENED ON MACHINES THAT RUN IOS.*
 
 Description:
 This student grade application is run from the excel file GradeWizardMaster.xlsm. This file imports a database containing student and course information in the same format of Registrar.accdb. The user can select to receive a course enrolment summary on a new sheet OR a word document report detailing the final grades for a course. 
