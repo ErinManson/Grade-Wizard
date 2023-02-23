@@ -24,7 +24,8 @@ Step by step walkthrough:
 
 5.
  A) If the user selected Course enrolment information on new sheet:
-  A new sheet will be populated via the sub “GetCourseInfo()” contained in Module “Module2C”. The new sheet will be titled “*Course Name* Enrolment” and will contain student first, last names and student IDs who are enrolled in the course selected(See below). 
+  A new sheet will be populated via the sub “GetCourseInfo()” contained in Module “Module2C”. The new sheet will be titled “*Course Name* Enrolment” and will contain student first, last names and student IDs who are enrolled in the course selected(See below).
+  
 <img width="259" alt="image" src="https://user-images.githubusercontent.com/126124271/220813212-d3426377-7f0f-459e-977d-d6e5995beaae.png">
 
  B) If the user selected Report of final grades on word document:
